@@ -1,29 +1,4 @@
-// Create an API call // /user
-// Use a middleware
-// Check whether the user_id 
-// if query parameter is greater than 10000
-// >10000 success
-// else error
-
-// const express = require('express')
-// const app = express()
-
-// const middle = function(req,res,next){
-//     if(req.query.user_id >10000){next()}
-//     else{res.send("Error")}
-// }
-
-// app.use(middle);
-
-// app.get('/home',function(req,res){
-//     console.log(req.query.user_id)
-//     res.send("Success");
-// })
-
-// app.listen(3003);
-
-
-const express = require('express')
+const express = require('express') // importing express
 const app = express();
 
 //creating first middleware
